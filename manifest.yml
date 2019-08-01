@@ -6,8 +6,8 @@ default_versions:
 dependencies:
 - name: external-jar
   version: 1.4.197
-  uri: https://github.com/tsalm-pivotal/spring-boot-external-jar-example/blob/master/external-jar/external-jar.tar.gz?raw=true
-  sha256: f31d945b60d5184991d1eff6861fb860d08b6af3c4b164ac59387b912e1c83e9
+  uri: https://github.com/tsalm-pivotal/external-jar-buildpack-example/blob/master/external-jar.tar.gz?raw=true
+  sha256: a19905edb947e3c1fcc1fa9aab0497e0feb7373fe876e906966aac29618368e8
   cf_stacks:
   - cflinuxfs3
 
