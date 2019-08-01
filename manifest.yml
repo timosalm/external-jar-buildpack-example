@@ -1,8 +1,15 @@
 ---
 language: external-jar
 default_versions:
-dependency_deprecation_dates:
+- name: external-jar
+  version: 1.4.197
 dependencies:
+- name: external-jar
+  version: 1.4.197
+  uri: https://github.com/tsalm-pivotal/spring-boot-external-jar-example/blob/master/external-jar/external-jar.tar.gz?raw=true
+  sha256: f31d945b60d5184991d1eff6861fb860d08b6af3c4b164ac59387b912e1c83e9
+  cf_stacks:
+  - cflinuxfs3
 
 include_files:
   - README.md
